@@ -4,7 +4,7 @@
   "description": "ai agent using node js",
   "main": "main.js",
   "scripts": {
-    "test": "tsc -b && node ./dist/main.js",
+    "start": "tsc -b && node ./dist/main.js",
     "dev": "tsc -b && node ./dist/main.js"
   },
   "keywords": [
