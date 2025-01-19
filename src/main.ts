@@ -61,7 +61,7 @@ while (true) {
     while (true) {
         try {
             const chat = await client.chat.completions.create({
-                model: "gpt-4",
+                model: "gpt-3.5-turbo",
                 messages: messages,
             });
             const result = chat.choices[0].message?.content;
