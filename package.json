@@ -1,0 +1,21 @@
+{
+  "name": "ai-agent-node-js",
+  "version": "1.0.0",
+  "description": "ai agent using node js",
+  "main": "main.js",
+  "scripts": {
+    "test": "tsc -b && node ./dist/main.js",
+    "dev": "tsc -b && node ./dist/main.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "open",
+    "ai"
+  ],
+  "author": "manupanand",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.79.1"
+  }
+}
