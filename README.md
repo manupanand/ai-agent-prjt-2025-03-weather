@@ -1,13 +1,14 @@
 # Chat Assistant Using OpenAI GPT-4
 
 This project is a command-line chat assistant built using the OpenAI GPT-4 API. The assistant interacts with users by processing their input and generating intelligent responses, simulating a conversational AI model.
-Features
 
-    Utilizes OpenAI's GPT-4 model for high-quality natural language understanding and generation.
-    Maintains conversation context using a message history system.
-    Supports flexible prompts, allowing users to customize system instructions.
-    Error handling for API calls and input validation.
-    Simple and intuitive command-line interface (CLI) for ease of use.
+### Features
+
+Utilizes OpenAI's GPT-4 model for high-quality natural language understanding and generation.
+Maintains conversation context using a message history system.
+Supports flexible prompts, allowing users to customize system instructions.
+Error handling for API calls and input validation.
+Simple and intuitive command-line interface (CLI) for ease of use.
 
 ## Project Structure
 
