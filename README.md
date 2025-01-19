@@ -37,9 +37,9 @@ Features
     Node.js installed (version 18 or later recommended).
     An OpenAI API key. Sign up at OpenAI if you don't have one.
 
-Installation
+### Installation
 
-    Clone the repository:
+Clone the repository:
 
 ```
 git clone https://github.com/yourusername/your-repository.git
@@ -53,12 +53,12 @@ npm install
 
 Create a .env file in the root directory with the following content:
 
-    generate key from gpt:
+ - generate key from gpt:
 
     ```
     https://platform.openai.com/
     ```
-    .env
+ - .env
 
     ```
     OPENAI_API_KEY=your_openai_api_key
@@ -77,26 +77,26 @@ npm run start
 
 ### Usage
 
-    The application starts with a system-defined prompt.
-    Type your query into the CLI to interact with the assistant.
-    Exit the conversation by pressing Ctrl+C.
+The application starts with a system-defined prompt.
+Type your query into the CLI to interact with the assistant.
+Exit the conversation by pressing Ctrl+C.
 
 ### Future Improvements
 
-    Add a GUI for enhanced user experience.
-    Support for streaming responses.
-    Expand functionality with additional OpenAI features, such as fine-tuning and embeddings.
-    Logging and analytics for conversations.
+Add a GUI for enhanced user experience.
+Support for streaming responses.
+Expand functionality with additional OpenAI features, such as fine-tuning and embeddings.
+Logging and analytics for conversations.
 
-Contributing
+### Contributing
 
 Contributions are welcome! Please follow these steps:
 
-    Fork the repository.
-    Create a new branch (git checkout -b feature-branch-name).
-    Make your changes and commit (git commit -m "Add some feature").
-    Push the branch (git push origin feature-branch-name).
-    Open a pull request.
+Fork the repository.
+Create a new branch (git checkout -b feature-branch-name).
+Make your changes and commit (git commit -m "Add some feature").
+Push the branch (git push origin feature-branch-name).
+Open a pull request.
 
 ### License
 
@@ -104,18 +104,3 @@ This project is licensed under the MIT License.
 
 
 
-### Environment variables format
-
-create new .env file
-
-```
-OPENAI_API_KEY="write your key here"
-```
-
-
-
-## Build an run command
-
-```
-npm run dev
-```
